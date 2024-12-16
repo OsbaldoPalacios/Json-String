@@ -1,0 +1,114 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+}
+
+textarea{
+    width: 95%;
+    height: 120px;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+    resize: none;
+}
+
+textarea:focus{
+    outline: none;
+    border-color: #007BFF;
+    background: #ffffff;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+button{
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 1rem;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0.1);
+}
+
+#convertButton{
+    background-color: #007BFF;
+    color: white;
+}
+
+#convertButton:hover{
+    background-color: #0056b3;
+}
+
+button#clearButton{
+    background-color: #dc3545;
+    color: white;
+}
+
+button#clearButton:hover{
+    background-color: #a71d2a;
+}
+
+#resultOutput{
+    background: #e9f7ef;
+    border: 1px solid #28a745;
+    color: #155724;
+}
